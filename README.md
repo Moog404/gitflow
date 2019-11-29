@@ -13,7 +13,10 @@ création d'un nouvelle feature basée sur la branche develop
 
 	$ git flow feature start myFeature  #git checkout -b feature/Myfeature
 
-Qaund la feature est terminé
+Quand la feature est terminé
+	
+	$git add . 	#(ou fichiers modifiés)
+	$git commit -m "un commentaire"
 
 	$git flow feature finish myFeature 
 
